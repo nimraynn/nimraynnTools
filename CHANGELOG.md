@@ -1,6 +1,6 @@
 ﻿# nimraynnTools ChangeLog
 
-* Last Updated: 27.01.17 by @nimraynn
+Last Updated: 27.01.17 by @nimraynn
 
 #### Version 1.1 - 30.0.17
 * Split functions into individual script files
