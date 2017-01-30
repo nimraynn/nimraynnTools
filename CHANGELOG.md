@@ -2,12 +2,12 @@
 
 Last Updated: 27.01.17 by @nimraynn
 
-#### Version 1.1 - 30.0.17
+##### Version 1.1 - 30.0.17
 * Split functions into individual script files
 * Old nimraynnTools.psm1 scrapped & new file written to import modules from \functions\ directory
 * Module manifest nimraynnTools.psd1 created
 
-#### Version 1.0 - 27.01.17
+##### Version 1.0 - 27.01.17
 * Initial version
 * Contains the following functions:
     * Compare-UptimePassword
