@@ -1,4 +1,4 @@
-# nimraynnTools
+# ![PowerShell Logo](/images/PowerShell_64.png) nimraynnTools
 
 ## Synopsis
 
