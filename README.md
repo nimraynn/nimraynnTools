@@ -1,4 +1,4 @@
-# ![PowerShell Logo](/images/Powershell_64.png) nimraynnTools
+# ![PowerShell Logo](/images/Powershell_64.png) nimraynnTools PowerShell Module Pack
 
 ## Synopsis
 
