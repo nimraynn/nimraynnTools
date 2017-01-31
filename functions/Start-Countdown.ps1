@@ -46,14 +46,12 @@ function Start-Countdown {
     
     # Start a loop to check if the time is still lower than the specified $endTime
     while ( (Get-Date) -lt $endTime ) {
-        
+       
         #Work out how long we have remaining
         $timeRemaining = ([int](New-Timespan $(Get-Date) $endTime).TotalSeconds)
-        $tRemaining = [timespan]::FromSeconds($timeRemaining)
-        ("{0:HH\:mm\:ss\,fff}" -f $ts)
         
-        # Write a message to the screen stating how long we have remaining
-        Write-Host "`r Countdown. Time remaining: $tRemaining"  -NoNewLine
+        # Write a progress bar with our countdown
+        Write-Progress -Activity "Counting down to..." -Status "$endTime" -SecondsRemaining $timeRemaining
         
         # Sleep for 1 second before triggering the loop again
         Start-Sleep -Seconds 1 
